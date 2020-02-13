@@ -110,9 +110,9 @@
   <script src="lib/jasmine-3.5.0/jasmine-html.js"></script>
   <script src="lib/jasmine-3.5.0/boot.js"></script>
   <!-- include source files here... -->
-  <script src="code.js"></script>
+  <script src="operations.js"></script>
   <!-- include spec files here... -->
-  <script src="spec/code-spec.js"></script>
+  <script src="spec/operations-spec.js"></script>
 </head>
 <body>
 </body>
@@ -120,8 +120,10 @@
 ```
 
 
-Пример файла с тестами (`math-spec.js`):
+Пример файла с тестами (`operations-spec.js`):
 ```js
+// Эта строка исключительно для node.js.
+// Если запускаете тесты в браузере - удалите её.
 const operations = require('../operations.js');
 
 describe('My operations testing', function() {
