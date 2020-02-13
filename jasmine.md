@@ -159,7 +159,7 @@ describe('Math object testing', function() {
 });
 ```
 
-*Более подробный пример для node.js можно посмотреть, и даже склонировать к себе [ТУТ для браузера](../../../manuals-jasmine-web-example) и [ТУТ для node.js](../../../manuals-jasmine-node-example).*
+*Более подробный пример можно посмотреть, и даже склонировать к себе [ТУТ для браузера](../../../manuals-jasmine-web-example) и [ТУТ для node.js](../../../manuals-jasmine-node-example).*
 
 
 </details>
