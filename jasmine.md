@@ -126,6 +126,9 @@
 // Если запускаете тесты в браузере - удалите её.
 const operations = require('../operations.js');
 
+// Для браузерной версии уберите все `operations.`;
+// На примере суммы: замените `operations.sum` на `sum`.
+
 describe('My operations testing', function() {
   describe('Simple operations', function() {
     it('sum', function() {
