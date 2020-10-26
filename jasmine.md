@@ -112,7 +112,7 @@
   <!-- include source files here... -->
   <script src="operations.js"></script>
   <!-- include spec files here... -->
-  <script src="spec/operations-spec.js"></script>
+  <script src="spec/operations.spec.js"></script>
 </head>
 <body>
 </body>
@@ -120,7 +120,7 @@
 ```
 
 
-Пример файла с тестами (`operations-spec.js`):
+Пример файла с тестами (`operations.spec.js`):
 ```js
 // Эта строка исключительно для node.js.
 // Если запускаете тесты в браузере - удалите её.
