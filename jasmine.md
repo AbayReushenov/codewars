@@ -27,9 +27,12 @@
 - Установи jest в devDependencies: `npm install -D jest`
 - В корне проекта создай папку `spec`.
 - Добавьте следующий раздел в `package.json`: 
-  ```"scripts": {
-       "test": "jest"
-      }``` (пример [файла] package.json)
+  ```
+  "scripts": {
+    "test": "jest"
+    }
+  ``` 
+  (пример [файла] package.json)
 - О расширенной настройке Jest можно почитать [здесь](https://jestjs.io/docs/en/getting-started#additional-configuration)
 
 Готово.
