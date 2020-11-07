@@ -32,7 +32,7 @@
     "test": "jest"
   }
   ``` 
-  Пример файла [package.json](../../../manuals-jasmine-node-example/package.json)
+  Пример файла [package.json](../../../manuals-jasmine-node-example/blob/master/package.json)   
 - О расширенной настройке Jest можно почитать [здесь](https://jestjs.io/docs/en/getting-started#additional-configuration)
 
 Готово.
@@ -128,7 +128,8 @@ describe('Math object testing', function() {
 });
 ```
 
-*Более подробный пример можно посмотреть, и даже склонировать к себе [ТУТ](../../../manuals-jasmine-node-example).*
+
+Более подробный пример можно посмотреть, и даже склонировать к себе [ТУТ](../../../manuals-jasmine-node-example).
 
 
 </details>
