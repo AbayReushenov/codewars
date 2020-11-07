@@ -30,9 +30,9 @@
   ```
   "scripts": {
     "test": "jest"
-    }
+  }
   ``` 
-  (пример [файла] package.json)
+  Пример файла [package.json]((../../../manuals-jasmine-node-example/package.json))
 - О расширенной настройке Jest можно почитать [здесь](https://jestjs.io/docs/en/getting-started#additional-configuration)
 
 Готово.
@@ -68,7 +68,7 @@
 *matchers* - то что ожидается (`toEqual(5)`, `toBeFalsy()`, `toBeUndefined()`, `toContain(2)` и тд). Больше [тут](https://jestjs.io/docs/en/using-matchers).
 
 Для старта может быть полезна [эта хабр статья](https://habr.com/ru/post/502302/).   
-Ближе познакомиться с методами можно в [тут](https://jestjs.io/docs/en/api#describename-fn).
+Ближе познакомиться с методами можно в [тут](https://jestjs.io/docs/en/api#describename-fn).   
 Документация [Jest](https://jestjs.io/docs/en/getting-started).
 
 
