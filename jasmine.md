@@ -62,13 +62,14 @@
 Создаёт группу тестов. Вызовы метода `describe` могут вкладываться друг в друга, что позволяет создавать подгруппы тестов.
 -  *beforeEach(functionopt, timeoutopt)* - 
 Метод, код внутри которого будет запускаться перед запуском каждого теста(`it`). Таким образом, тут можно задавать значения переменных, необходимые для тестов, подготавливать БД, и тд.
-- *it(description, testFunctionopt, timeoutopt)*
+- *test(description, testFunctionopt, timeoutopt)*
 Определяет тест(или spec). Тест должен содержать 1 или более вызовов метода `expect` (ожидания от работы вашего кода). Если все вызовы `expect` внутри `it` успешны - тесты пройдут, иначе выдадут ошибку.
 - *expect(actual) → {matchers}*
 Создаёт ожидание для теста. Например: `expect(sum(2,3)).toEqual(5)` - ожидается, что результат вызова метода `sum` с аргументами `2` и `3` будет равен `5`. То есть `2+3=5`.
 *matchers* - то что ожидается (`toEqual(5)`, `toBeFalsy()`, `toBeUndefined()`, `toContain(2)` и тд). Больше [тут](https://jestjs.io/docs/en/using-matchers).
 
-Ближе познакомиться с методами можно в [документации](https://jasmine.github.io/api/3.5/global.html#describe).   Также для быстрого старта может быть полезна [эта статья](https://habr.com/ru/post/502302/).
+Ближе познакомиться с методами можно в [документации](https://jestjs.io/docs/en/api#describename-fn).   
+Также для быстрого старта может быть полезна [эта хабр статья](https://habr.com/ru/post/502302/).
 
 </details>
 
@@ -91,11 +92,11 @@ module.exports = { sum };
 
 Пример файла с тестами (`spec/operations.spec.js`):
 ```
-const {sum} = require('../operations.js');
+const {sum} = require('../op.js');
 
 describe('My operations testing', function() {
   describe('Simple operations', function() {
-    it('sum', function() {
+    test('sum', function() {
       expect(sum(3, 2)).toEqual(5);
     });
   });
@@ -109,17 +110,17 @@ describe('Math object testing', function() {
   });
 
   describe('Math constants', function() {
-    it('PI', function() {
+    test('PI', function() {
       expect(Math.PI).toBeGreaterThan(3.14);
       expect(Math.PI).toBeLessThan(3.15);
-    });  
-    it('E', function() {
+    });
+    test('E', function() {
       expect(Math.E).toBeCloseTo(2.718, 2);
     });
   });
-  
+
   describe('Math methods', function() {
-    it('pow(возведение в степень)', function() {
+    test('pow(возведение в степень)', function() {
       expect(Math.pow(3, 2)).toEqual(9);
     });
   });
