@@ -83,6 +83,8 @@
 
 ## Примеры
 
+Более подробный пример можно посмотреть, и даже склонировать к себе [ТУТ](../../../manuals-jasmine-node-example).
+
 Файл `operations.js`
 ```
 function sum(a, b) {
@@ -128,9 +130,5 @@ describe('Math object testing', function() {
   });
 });
 ```
-
-
-Более подробный пример можно посмотреть, и даже склонировать к себе [ТУТ](../../../manuals-jasmine-node-example).
-
 
 </details>
