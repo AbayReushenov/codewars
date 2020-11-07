@@ -26,7 +26,8 @@
 - Если проект новый, то инициализируй файл `package.json` командой `npm init -y`
 - Установи jest в devDependencies: `npm install -D jest`
 - В корне проекта создай папку `spec`.
-- Добавьте следующий раздел в `package.json`:   
+- Добавьте следующий раздел в `package.json`:
+
   ```
   "scripts": {
     "test": "jest"
