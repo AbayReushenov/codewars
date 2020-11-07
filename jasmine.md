@@ -43,7 +43,6 @@
 Для запуска тестов достаточно выполнить команду `npm test` или `npx jest` в терминале, находясь в корне своего проекта.
 
 
-Подробнее смотри в [документации](https://jestjs.io/docs/en/getting-started).
 
 </details>
 
@@ -68,8 +67,10 @@
 Создаёт ожидание для теста. Например: `expect(sum(2,3)).toEqual(5)` - ожидается, что результат вызова метода `sum` с аргументами `2` и `3` будет равен `5`. То есть `2+3=5`.
 *matchers* - то что ожидается (`toEqual(5)`, `toBeFalsy()`, `toBeUndefined()`, `toContain(2)` и тд). Больше [тут](https://jestjs.io/docs/en/using-matchers).
 
-Ближе познакомиться с методами можно в [документации](https://jestjs.io/docs/en/api#describename-fn).   
-Также для быстрого старта может быть полезна [эта хабр статья](https://habr.com/ru/post/502302/).
+Для старта может быть полезна [эта хабр статья](https://habr.com/ru/post/502302/).   
+Ближе познакомиться с методами можно в [тут](https://jestjs.io/docs/en/api#describename-fn).
+Документация [Jest](https://jestjs.io/docs/en/getting-started).
+
 
 </details>
 
@@ -82,8 +83,8 @@
 ## Примеры
 
 Файл `operations.js`
-
-```function sum(a, b) {
+```
+function sum(a, b) {
   return a + b;
 }
 
