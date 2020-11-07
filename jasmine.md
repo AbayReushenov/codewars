@@ -32,7 +32,7 @@
     "test": "jest"
   }
   ``` 
-  Пример файла [package.json]((../../../manuals-jasmine-node-example/package.json)
+  Пример файла [package.json](../../../manuals-jasmine-node-example/package.json)
 - О расширенной настройке Jest можно почитать [здесь](https://jestjs.io/docs/en/getting-started#additional-configuration)
 
 Готово.
