@@ -30,7 +30,7 @@
 
   ```
   "scripts": {
-    "test": "jest"
+    "test": "jest -i"
   }
   ``` 
   Пример файла [package.json](../../../manuals-jasmine-node-example/blob/master/package.json)   
